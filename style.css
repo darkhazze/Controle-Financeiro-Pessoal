@@ -1,0 +1,76 @@
+body { 
+    padding: 30px;
+    margin: 0px;
+    background-image: url(Images/bg.jpg);
+    background-position: center;
+    background-size:auto ;
+    font-family: Arial;
+}
+
+.main-title { 
+    color: #224f25;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.main-container{ 
+    max-width: 600px;
+    margin: 0 auto 300px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: #f2f2f1;
+}
+
+.container { 
+    display:flex;
+    align-items: center;
+}
+
+.months {
+    color: #0b520f;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.month-name { 
+    color: #3e7d43;
+    font-weight: bold;
+}
+
+.input { 
+    background-color: #fff;
+    color: #275c3a;
+}
+
+.output { 
+    background-color: #fff;
+    color: #a12b2b;
+}
+
+.insert-button { 
+    background-color: #b5d9ad;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+}
+
+.insert-button:hover { 
+    background-color: #7bb06f;
+    transition: 0.5s;
+}
+
+.remove-button { 
+    background-color: #fff;
+    border-radius:7px;
+    border-color: black;
+}
+
+.remove-button:hover { 
+    background-color: #eb6565;
+    transition: 0.5s;
+}
+
+.form { 
+    margin-bottom: 5px;
+}
